@@ -10,6 +10,7 @@ terraform {
 # Configure the GitHub Provider
 provider "github" {
   token = var.github_token
+  owner = "SudhakarNalla"
 }
 
 resource "github_repository" "first-repo" {
